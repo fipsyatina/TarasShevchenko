@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark_mode.svg">
-  <img alt="Taras Shevchenko — C++ / AI development, Software Engineering student in Wrocław, open to work. Profile with an ASCII portrait and public GitHub statistics." src="./light_mode.svg" width="1200">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-dark.svg">
+  <img alt="Taras Shevchenko — C++ / AI development, Software Engineering student in Wrocław, open to work. Profile with an ASCII portrait and public GitHub statistics." src="./profile-light.svg" width="1200">
 </picture>
 
 <p align="center">

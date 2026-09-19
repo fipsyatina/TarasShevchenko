@@ -122,6 +122,7 @@ def main():
         cache.write_text(json.dumps(stats, indent=2) + "\n", encoding="utf-8")
     for theme in ("dark", "light"):
         (ROOT / f"{theme}_mode.svg").write_text(render(profile, stats, now, theme == "dark"), encoding="utf-8")
+        (ROOT / f"profile-{theme}.svg").write_text(render(profile, stats, now, theme == "dark"), encoding="utf-8")
     print(f'Generated both themes: {stats["public_repos"]} public repositories; updated {now.isoformat()}')
 
 
