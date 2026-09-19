@@ -30,7 +30,7 @@ Edit personal information in `profile.json`. The SVG layout is in `scripts/updat
 
 Public repository count includes owned forks. Stars and forks are sums for public, owned, non-fork repositories. Followers come from the public GitHub user endpoint. Private repositories, commit counts and lines of code are not represented. API failures fail the update and retain the previous published cards instead of substituting zeroes.
 
-Uptime is actual elapsed time from `2006-12-23 04:36 Europe/Kyiv` (`2006-12-23 02:36 UTC`), computed in UTC so daylight-saving transitions do not change elapsed time. It is a daily snapshot, not a live second-by-second counter.
+Uptime is calendar age in years, months and days from `2006-12-23 04:36 Europe/Kyiv` (`2006-12-23 02:36 UTC`), computed in Europe/Kyiv with complete calendar months and days, respecting the birth time. It is a daily snapshot, not a live second-by-second counter.
 
 The university's English name follows its [official engineering page](https://wab.edu.pl/en/engineering-degree/).
 

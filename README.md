@@ -17,7 +17,7 @@ I'm **Taras Shevchenko**, a Software Engineering student at **Wroclaw Business U
 
 I speak **Ukrainian** natively, **Polish** and **Russian** at an advanced level, and **English** at an intermediate level. My English comprehension is stronger than my speaking.
 
-I was born in **Cherkasy, Ukraine**, on **23 December 2006 at 04:36**. Uptime is calculated from that moment using the `Europe/Kyiv` time zone and displayed as elapsed days, hours and minutes.
+I was born in **Cherkasy, Ukraine**, on **23 December 2006 at 04:36**. Uptime is calculated from that moment using the `Europe/Kyiv` time zone and displayed as calendar years, months and days.
 
 </details>
 

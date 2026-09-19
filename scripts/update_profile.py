@@ -1,5 +1,6 @@
 """Generate both GitHub profile themes from verified public API data."""
 import argparse
+import calendar
 from datetime import datetime, timezone
 from html import escape
 import json
@@ -39,11 +40,21 @@ def fetch_stats(username, now):
 
 def uptime(profile, now):
     born = datetime.fromisoformat(profile["birth_local"]).replace(tzinfo=ZoneInfo(profile["birth_timezone"]))
-    elapsed = now.astimezone(timezone.utc) - born.astimezone(timezone.utc)
-    if elapsed.total_seconds() < 0:
+    local_now = now.astimezone(born.tzinfo)
+    if local_now < born:
         raise ValueError("Update timestamp precedes birth")
-    hours, rest = divmod(elapsed.seconds, 3600)
-    return f"{elapsed.days:,} days, {hours:02}h {rest // 60:02}m"
+    months = (local_now.year - born.year) * 12 + local_now.month - born.month
+
+    def anniversary(offset):
+        year, month = divmod(born.year * 12 + born.month - 1 + offset, 12)
+        month += 1
+        return born.replace(year=year, month=month, day=min(born.day, calendar.monthrange(year, month)[1]))
+
+    if local_now < anniversary(months):
+        months -= 1
+    days = (local_now - anniversary(months)).days
+    years, months = divmod(months, 12)
+    return ", ".join(f"{value} {unit}{'' if value == 1 else 's'}" for value, unit in ((years, "year"), (months, "month"), (days, "day")))
 
 
 def render(profile, stats, now, dark):
@@ -59,23 +70,23 @@ def render(profile, stats, now, dark):
         svg.append(f'<text x="{x}" y="{y}" fill="{c[color]}" {extra}>{escape(str(value))}</text>')
 
     def field(y, key, value, value_color="value"):
-        text(460, y, key, "key")
-        text(460 + (len(key) + 1) * 9, y, " " + "." * max(1, 16 - len(key)) + " ", "muted")
-        text(631, y, value, value_color)
+        text(530, y, key, "key")
+        text(530 + (len(key) + 1) * 9, y, " " + "." * max(1, 16 - len(key)) + " ", "muted")
+        text(701, y, value, value_color)
 
     def heading(y, title):
-        text(460, y, title)
-        start = 460 + (len(title) + 2) * 9
+        text(530, y, title)
+        start = 530 + (len(title) + 2) * 9
         svg.append(f'<path d="M{start} {y-5} H1170" stroke="{c["line"]}"/>')
 
     text(28, 38, "taras@fipsyatina:~$ whoami", "green")
     lines = (ROOT / "assets/portrait.txt").read_text(encoding="utf-8").splitlines()
     for i, line in enumerate(lines):
-        text(28, 110 + i * 13.5, line.ljust(64), extra='class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs"')
+        text(28, 110 + i * 13.5, line.ljust(64), extra='class="portrait" xml:space="preserve" textLength="460" lengthAdjust="spacingAndGlyphs"')
     text(28, 714, "TARAS SHEVCHENKO", "value")
     text(28, 739, "C++ / AI DEVELOPMENT", "key")
     text(28, 764, "[ open to work ]", "green")
-    svg.append(f'<path d="M432 65 V764" stroke="{c["line"]}"/>')
+    svg.append(f'<path d="M502 65 V764" stroke="{c["line"]}"/>')
     heading(38, "taras@shevchenko")
     field(76, "Name", profile["name"])
     field(100, "Focus", profile["focus"])
@@ -85,14 +96,14 @@ def render(profile, stats, now, dark):
     field(196, "Uptime", uptime(profile, now))
     heading(238, "- Education")
     field(264, "University", "Wroclaw Business University")
-    text(631, 288, "of Applied Sciences", "value")
+    text(701, 288, "of Applied Sciences", "value")
     field(312, "Studying", profile["degree"])
     heading(354, "- Languages & hobbies")
     field(380, "Ukrainian", "Native")
     field(404, "Polish", "Advanced")
     field(428, "Russian", "Advanced")
     field(452, "English", "Intermediate")
-    text(631, 475, "Comprehension > speaking", "muted")
+    text(701, 475, "Comprehension > speaking", "muted")
     field(499, "Hobby", profile["hobby"])
     heading(541, "- Contact")
     field(567, "Email", profile["email"])
@@ -101,8 +112,8 @@ def render(profile, stats, now, dark):
     heading(657, "- GitHub stats · public")
     field(683, "Repositories", f'{stats["public_repos"]:,}       Stars: {stats["stars"]:,}')
     field(707, "Followers", f'{stats["followers"]:,}       Forks: {stats["forks"]:,}')
-    text(460, 746, f'Updated {now:%Y-%m-%d %H:%M} UTC · daily snapshot', "muted")
-    text(460, 768, "Stars & forks: owned, non-fork repositories", "muted")
+    text(530, 746, f'Updated {now:%Y-%m-%d %H:%M} UTC · daily snapshot', "muted")
+    text(530, 768, "Stars & forks: owned, non-fork repositories", "muted")
     svg.append("</svg>")
     return "\n".join(svg) + "\n"
 
