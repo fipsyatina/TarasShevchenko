@@ -5,10 +5,10 @@ from PIL import Image, ImageOps
 root = Path(__file__).resolve().parents[1]
 source = Image.open(root / 'assets/portrait-cutout.png').convert('RGBA')
 # Frame the head and upper shoulders; transparency is never turned into text.
-source = source.crop((240, 0, 1060, 1086)).resize((54, 50), Image.Resampling.LANCZOS)
+source = source.crop((240, 0, 1060, 1086)).resize((38, 28), Image.Resampling.LANCZOS)
 alpha = source.getchannel('A')
 gray = ImageOps.autocontrast(source.convert('L'), cutoff=1)
-ramp = ' .,:;irsXA253hMHGS#9B&@'
+ramp = ' .,:;i|=+*#%@'
 lines = []
 for y in range(source.height):
     line = ''
