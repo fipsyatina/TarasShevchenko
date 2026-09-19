@@ -2,36 +2,48 @@
 <title id="title">Taras Shevchenko — GitHub profile</title>
 <desc id="desc">ASCII portrait, C++ and AI development, education, languages, contacts and public GitHub statistics.</desc>
 <rect width="1200" height="790" rx="16" fill="#f6f8fa"/>
-<style>text{font-family:Consolas,"Liberation Mono",Menlo,monospace;font-size:15px} .portrait{font-size:19px} text{white-space:pre}</style>
+<style>text{font-family:Consolas,"Liberation Mono",Menlo,monospace;font-size:15px} .portrait{font-size:11px} text{white-space:pre}</style>
 <text x="28" y="38" fill="#116329" >taras@fipsyatina:~$ whoami</text>
-<text x="28" y="110.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                 =                    </text>
-<text x="28" y="129.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">            =====+++*+=|i             </text>
-<text x="28" y="149.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">         |====+++***##**=|i|          </text>
-<text x="28" y="168.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">        ===+++++**##**##*+=|||        </text>
-<text x="28" y="188.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">       +++++++*####***##*=+++==       </text>
-<text x="28" y="207.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">      =+**+***###***##**#*+++*+=|     </text>
-<text x="28" y="227.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">     =+**+++****+*#####*+******+==    </text>
-<text x="28" y="246.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">    =+**++***+***#####***+*#**+++=    </text>
-<text x="28" y="266.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">    =+**********#**##*+***+*##++++    </text>
-<text x="28" y="285.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">    =+#******==+||+**+++*****#+**=    </text>
-<text x="28" y="305.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">     +****#*+++=i|*|+i=+=*****+#*     </text>
-<text x="28" y="324.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">     +***#+;;i;i|=i:=;i=i;ii*+**+     </text>
-<text x="28" y="344.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">      *#*#;:||+|ii:.,;ii+||;|***      </text>
-<text x="28" y="363.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">       *i+,,:,,:::,..::::,:,,+|*      </text>
-<text x="28" y="383.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">       ;.;.......,...........:.       </text>
-<text x="28" y="402.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">        ,,,......,:..:.......,,       </text>
-<text x="28" y="422.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">        i.:......:|:;i......,.        </text>
-<text x="28" y="441.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">         *+....,,;|;ii:,....+*        </text>
-<text x="28" y="461.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">          #:..,;ii;;;iii:..;#         </text>
-<text x="28" y="480.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">           +,..,:;;;;i;,,,,+          </text>
-<text x="28" y="500.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">            ::,,.,:i;,,,,:,           </text>
-<text x="28" y="519.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">            ,,:,..,,,,,::,.           </text>
-<text x="28" y="539.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">           |...:i|||||i;...:          </text>
-<text x="28" y="558.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">         #|:,...,i==|;:...,.i#*       </text>
-<text x="28" y="578.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">      **##i,................=#****    </text>
-<text x="28" y="597.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">  **######%+;.............:+######****</text>
-<text x="28" y="617.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">**#########%%*=;,..,,.,;|*%%##########</text>
-<text x="28" y="636.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">#############%%%##***##%%%############</text>
+<text x="28" y="110.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                                                                </text>
+<text x="28" y="123.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                      ,&#x27;&#x27;&#x27;&#x27;,,,,,,,&#x27;&#x27;,::                         </text>
+<text x="28" y="137.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                   :::,,,,,,&#x27;&#x27;&#x27;```. `&#x27;::;!i                     </text>
+<text x="28" y="150.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                ;:::,::,,&#x27;````.`..    ..`,;!i!                  </text>
+<text x="28" y="164.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">              ::,,,,,&#x27;`.``.``...  .... ..`&#x27;,:;!;;               </text>
+<text x="28" y="177.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">            :,&#x27;`,,,``&#x27;,,&#x27;&#x27;&#x27;`..    ``.   .`&#x27;&#x27;&#x27;&#x27;,:;;;             </text>
+<text x="28" y="191.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">           ,&#x27;``,&#x27;``&#x27;,,&#x27;``.      .`.  .  .`&#x27;,,&#x27;&#x27;`&#x27;,:;;           </text>
+<text x="28" y="204.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">          ,&#x27;&#x27;&#x27;&#x27;`.`&#x27;&#x27;.  .      .``.  ...   `,,&#x27;&#x27;&#x27;&#x27;``&#x27;:;          </text>
+<text x="28" y="218.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">         :,&#x27;&#x27;`..`&#x27;`...`..  .````      .&#x27;&#x27;. .`&#x27;&#x27;``&#x27;&#x27;``,;:        </text>
+<text x="28" y="231.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">        :,``...`&#x27;&#x27;&#x27;&#x27;``. ..`&#x27;`.          `,`...`&#x27;`..&#x27;&#x27;`&#x27;:,       </text>
+<text x="28" y="245.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">       ,&#x27;``..``&#x27;&#x27;`...``&#x27;&#x27;``.         .``.`&#x27;` ...````&#x27;&#x27;`,,       </text>
+<text x="28" y="258.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">       ,&#x27;``..``. ..``&#x27;`..`.   .    ..``````&#x27;` ....`&#x27;&#x27;``&#x27;,       </text>
+<text x="28" y="272.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">       ,&#x27;`. .`..`.. .. `&#x27;``.`&#x27;``   .``&#x27;`.``.&#x27;`..  .&#x27;,&#x27;`,,       </text>
+<text x="28" y="285.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">       ,&#x27;.. .`..   ..&#x27;,:,&#x27;`&#x27;;;,`....`&#x27;&#x27;,`....```  `,&#x27;``&#x27;,       </text>
+<text x="28" y="299.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">        &#x27;`.```. ....&#x27;,:,`&#x27;;rr|&#x27;``:`&#x27;i;,,;&#x27;.....`..&#x27;&#x27;. .&#x27;        </text>
+<text x="28" y="312.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">         &#x27;.`..`..  &#x27;,,&#x27;&#x27;,&#x27;,:;,`&#x27;rr`:r!&#x27;`&#x27;,,&#x27;`&#x27;`..`&#x27;`. `,        </text>
+<text x="28" y="326.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">         &#x27;. .`.  `;jljrllri|i,;rx!,rjri:|llj|||&#x27;`&#x27;`..`&#x27;         </text>
+<text x="28" y="339.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">          `  `.  !jji:!&#x27; `!:ii|lcljrj|;i`.,!;|ji````.`&#x27;         </text>
+<text x="28" y="353.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">           . ,` `llr!!ri;!ri|r|lw%mrr|ir!:i|!!jc! .` `          </text>
+<text x="28" y="366.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">             ic&#x27;;mxxxxxmxxlccllm%%%xlcclcxxxxxxmc.!i.`          </text>
+<text x="28" y="380.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">            &#x27;xxrjxmw%wwwwwwwxlcm%#%mcxwwwwwwwwwwxrcw|           </text>
+<text x="28" y="393.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">             wjrcxmw%%%%%%%%xc%#@@##mxw%%%%w%wwwxciw            </text>
+<text x="28" y="407.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">             jwmllmw%%###%%wcxiimwx!rxm%%%#%%wwxlxwx            </text>
+<text x="28" y="420.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">              i%%lxmw%%%%%%%xjiilcji|cw%%%%%%wmxm@c             </text>
+<text x="28" y="434.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">               ,,&#x27;xmmw%%%%wmxj!;ij!;|cww%%%%wmw|&#x27;!              </text>
+<text x="28" y="447.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                  |wxwwwmj||ri!irj|!!|jjrxwwmmw` .              </text>
+<text x="28" y="461.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                  .xmxmwlr||||||||||||i|rlmmmwi &#x27;               </text>
+<text x="28" y="474.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                   &#x27;xxxmmxc|!i|rrrr|iiilcxxxmr                  </text>
+<text x="28" y="488.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                    rccxxxmmxljrrrrrjlmxccclc|                  </text>
+<text x="28" y="501.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                    cljlxxcccccr!!rlccllxljjxc                  </text>
+<text x="28" y="515.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                    lxcjjcxmxmmxccxmxxxxjrlxxc                  </text>
+<text x="28" y="528.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                    cxmmcjrlllljrjjjjjr|jcmmxc                  </text>
+<text x="28" y="542.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                   icxmwwxli::::::,::;ilxmwmxxj.                </text>
+<text x="28" y="555.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">               . &#x27;rlcmmmwwmxji:,&#x27;,:!|lcxwwmmxxxx, `             </text>
+<text x="28" y="569.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">           ....  lmjcmmwwwwmmmxcccxxxxxmwwmxxxxx, .. ...        </text>
+<text x="28" y="582.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">        . ...    .ilmwmmmwwwmxmmmmmxxxmwwmxmwml,      ......    </text>
+<text x="28" y="596.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">   `....           `icmwwmw%wmxxxxcxxmwwmmwml;         .  .....`</text>
+<text x="28" y="609.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">`...                  &#x27;!jcm%#%wwmmmw%#%mlj!&#x27;                   .</text>
+<text x="28" y="623.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">.                         `,!i|rrrr|i!,`                        </text>
+<text x="28" y="636.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs">                                                                </text>
 <text x="28" y="714" fill="#0550ae" >TARAS SHEVCHENKO</text>
 <text x="28" y="739" fill="#953800" >C++ / AI DEVELOPMENT</text>
 <text x="28" y="764" fill="#116329" >[ open to work ]</text>

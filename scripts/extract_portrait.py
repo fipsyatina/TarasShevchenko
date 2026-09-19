@@ -1,14 +1,14 @@
 """Sample the transparent portrait into plain text. Requires Pillow."""
 from pathlib import Path
-from PIL import Image, ImageOps
+from PIL import Image
 
 root = Path(__file__).resolve().parents[1]
 source = Image.open(root / 'assets/portrait-seven-references.png').convert('RGBA')
 # Frame the head and upper shoulders; transparency is never turned into text.
-source = source.resize((38, 28), Image.Resampling.LANCZOS)
+source = source.resize((64, 40), Image.Resampling.LANCZOS)
 alpha = source.getchannel('A')
-gray = ImageOps.autocontrast(source.convert('L'), cutoff=1)
-ramp = ' .,:;i|=+*#%@'
+gray = source.convert('L')
+ramp = "   .`',:;!i|rjlcxmw%#@"
 lines = []
 for y in range(source.height):
     line = ''
@@ -16,7 +16,7 @@ for y in range(source.height):
         if alpha.getpixel((x, y)) < 128:
             line += ' '
         else:
-            value = 255 - gray.getpixel((x, y))
-            line += ramp[min(len(ramp) - 1, max(1, int(value / 256 * len(ramp))))]
-    lines.append(line.rstrip())
+            density = max(0.0, min(1.0, (gray.getpixel((x, y)) - 20) / 185)) ** 1.05
+            line += ramp[round(density * (len(ramp) - 1))]
+    lines.append(line)
 (root / 'assets/portrait.txt').write_text('\n'.join(lines) + '\n', encoding='utf-8')

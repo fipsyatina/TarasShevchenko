@@ -2,7 +2,7 @@
 
 ## Current portrait: seven references
 
-`assets/portrait-seven-references.png` is an AI-synthesized front-facing portrait based on all seven photos supplied by Taras, not an unmodified photograph. It replaces the earlier single-photo cutout as the source of `assets/portrait.txt`. The ASCII grid remains 38 columns by 28 rows, with a transparent silhouette and large characters.
+`assets/portrait-seven-references.png` is an AI-synthesized front-facing portrait based on all seven photos supplied by Taras, not an unmodified photograph. It replaces the earlier single-photo cutout as the source of `assets/portrait.txt`. The ASCII grid remains 64 columns by 40 rows, with a transparent silhouette and large characters.
 
 The built-in image generation tool accepts at most five reference images per call, so the portrait was created in two stages: the first five photos established the face, then the resulting portrait was refined using photos six and seven. Only Taras's face was used from the group photos.
 

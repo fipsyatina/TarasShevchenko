@@ -53,7 +53,7 @@ def render(profile, stats, now, dark):
            '<title id="title">Taras Shevchenko — GitHub profile</title>',
            '<desc id="desc">ASCII portrait, C++ and AI development, education, languages, contacts and public GitHub statistics.</desc>',
            f'<rect width="1200" height="790" rx="16" fill="{c["bg"]}"/>',
-           '<style>text{font-family:Consolas,"Liberation Mono",Menlo,monospace;font-size:15px} .portrait{font-size:19px} text{white-space:pre}</style>']
+           '<style>text{font-family:Consolas,"Liberation Mono",Menlo,monospace;font-size:15px} .portrait{font-size:11px} text{white-space:pre}</style>']
 
     def text(x, y, value, color="fg", extra=""):
         svg.append(f'<text x="{x}" y="{y}" fill="{c[color]}" {extra}>{escape(str(value))}</text>')
@@ -71,7 +71,7 @@ def render(profile, stats, now, dark):
     text(28, 38, "taras@fipsyatina:~$ whoami", "green")
     lines = (ROOT / "assets/portrait.txt").read_text(encoding="utf-8").splitlines()
     for i, line in enumerate(lines):
-        text(28, 110 + i * 19.5, line.ljust(38), extra='class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs"')
+        text(28, 110 + i * 13.5, line.ljust(64), extra='class="portrait" xml:space="preserve" textLength="390" lengthAdjust="spacingAndGlyphs"')
     text(28, 714, "TARAS SHEVCHENKO", "value")
     text(28, 739, "C++ / AI DEVELOPMENT", "key")
     text(28, 764, "[ open to work ]", "green")
