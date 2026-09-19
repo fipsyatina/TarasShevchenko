@@ -3,9 +3,9 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 root = Path(__file__).resolve().parents[1]
-source = Image.open(root / 'assets/portrait-cutout.png').convert('RGBA')
+source = Image.open(root / 'assets/portrait-seven-references.png').convert('RGBA')
 # Frame the head and upper shoulders; transparency is never turned into text.
-source = source.crop((240, 0, 1060, 1086)).resize((38, 28), Image.Resampling.LANCZOS)
+source = source.resize((38, 28), Image.Resampling.LANCZOS)
 alpha = source.getchannel('A')
 gray = ImageOps.autocontrast(source.convert('L'), cutoff=1)
 ramp = ' .,:;i|=+*#%@'

@@ -1,5 +1,15 @@
 # Profile maintenance
 
+## Current portrait: seven references
+
+`assets/portrait-seven-references.png` is an AI-synthesized front-facing portrait based on all seven photos supplied by Taras, not an unmodified photograph. It replaces the earlier single-photo cutout as the source of `assets/portrait.txt`. The ASCII grid remains 38 columns by 28 rows, with a transparent silhouette and large characters.
+
+The built-in image generation tool accepts at most five reference images per call, so the portrait was created in two stages: the first five photos established the face, then the resulting portrait was refined using photos six and seven. Only Taras's face was used from the group photos.
+
+Prompt, stage 1: use all five photos as identity references for one faithful front-facing grayscale head-and-shoulders portrait; relaxed closed mouth, no glasses or headphones, characteristic messy fringe, narrow face, thin moustache and sparse goatee; transparent background, natural proportions, clear tonal shapes for 38 by 28 ASCII sampling; no scenery, hands, documents, text or accessories.
+
+Prompt, stage 2: refine that portrait using the two remaining photos of the same man, retaining the identity information from the first stage; preserve the front-facing grayscale composition, transparent background, recognizable features and simple lighting; exclude other people and props. The PNG is a source for text sampling, not a raster imitation of ASCII.
+
 The SVGs and generator are original work inspired by the layout of [Andrew6rant/Andrew6rant](https://github.com/Andrew6rant/Andrew6rant). No source code or portrait from that repository is included. The portrait is text sampled from a transparent cutout of Taras's supplied photo. The cutout is included as `assets/portrait-cutout.png`; the original photos are not stored in this repository.
 
 The background was removed with the built-in image generation tool. Prompt: remove buildings, sky, poles and wires; preserve the person's face, expression, hair, glasses, headphones and clothing; output a centered photographic head-and-shoulders cutout with a genuinely transparent background, without text or stylization. To resample the portrait, install Pillow and run `python scripts/extract_portrait.py`, then rebuild the cards.
