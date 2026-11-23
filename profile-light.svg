@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790" role="img" aria-labelledby="title desc">
 <title id="title">Taras Shevchenko — GitHub profile</title>
-<desc id="desc">ASCII portrait, C++ and AI development, education, languages, contacts and public GitHub statistics.</desc>
+<desc id="desc">ASCII portrait, Python and AI development, education, languages, contacts and public GitHub statistics.</desc>
 <rect width="1200" height="790" rx="16" fill="#f6f8fa"/>
 <style>text{font-family:Consolas,"Liberation Mono",Menlo,monospace;font-size:15px} .portrait{font-size:11px} text{white-space:pre}</style>
 <text x="28" y="38" fill="#116329" >taras@fipsyatina:~$ whoami</text>
@@ -45,7 +45,7 @@
 <text x="28" y="623.0" fill="#24292f" class="portrait" xml:space="preserve" textLength="460" lengthAdjust="spacingAndGlyphs">.                         `,!i|rrrr|i!,`                        </text>
 <text x="28" y="636.5" fill="#24292f" class="portrait" xml:space="preserve" textLength="460" lengthAdjust="spacingAndGlyphs">                                                                </text>
 <text x="28" y="714" fill="#0550ae" >TARAS SHEVCHENKO</text>
-<text x="28" y="739" fill="#953800" >C++ / AI DEVELOPMENT</text>
+<text x="28" y="739" fill="#953800" >Python / AI DEVELOPMENT</text>
 <text x="28" y="764" fill="#116329" >[ open to work ]</text>
 <path d="M502 65 V764" stroke="#d0d7de"/>
 <text x="530" y="38" fill="#24292f" >taras@shevchenko</text>
@@ -58,7 +58,7 @@
 <text x="701" y="100" fill="#0550ae" >C++ / AI development</text>
 <text x="530" y="124" fill="#953800" >Status</text>
 <text x="593" y="124" fill="#596579" > .......... </text>
-<text x="701" y="124" fill="#116329" >Open to work · C++ / AI</text>
+<text x="701" y="124" fill="#116329" >Open to work · Python / AI</text>
 <text x="530" y="148" fill="#953800" >Location</text>
 <text x="611" y="148" fill="#596579" > ........ </text>
 <text x="701" y="148" fill="#0550ae" >Wrocław, Poland</text>
@@ -114,6 +114,6 @@
 <text x="530" y="707" fill="#953800" >Followers</text>
 <text x="620" y="707" fill="#596579" > ....... </text>
 <text x="701" y="707" fill="#0550ae" >7       Forks: 0</text>
-<text x="530" y="746" fill="#596579" >Updated 2026-11-23 10:45 UTC · daily snapshot</text>
+<text x="530" y="746" fill="#596579" >Updated 2026-11-23 14:33 UTC · daily snapshot</text>
 <text x="530" y="768" fill="#596579" >Stars &amp; forks: owned, non-fork repositories</text>
 </svg>
