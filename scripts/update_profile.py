@@ -62,7 +62,7 @@ def render(profile, stats, now, dark):
     c = colors
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790" role="img" aria-labelledby="title desc">',
            '<title id="title">Taras Shevchenko — GitHub profile</title>',
-           '<desc id="desc">ASCII portrait, C++ and AI development, education, languages, contacts and public GitHub statistics.</desc>',
+           '<desc id="desc">ASCII portrait, Python and AI development, education, languages, contacts and public GitHub statistics.</desc>',
            f'<rect width="1200" height="790" rx="16" fill="{c["bg"]}"/>',
            '<style>text{font-family:Consolas,"Liberation Mono",Menlo,monospace;font-size:15px} .portrait{font-size:11px} text{white-space:pre}</style>']
 
@@ -84,13 +84,13 @@ def render(profile, stats, now, dark):
     for i, line in enumerate(lines):
         text(28, 110 + i * 13.5, line.ljust(64), extra='class="portrait" xml:space="preserve" textLength="460" lengthAdjust="spacingAndGlyphs"')
     text(28, 714, "TARAS SHEVCHENKO", "value")
-    text(28, 739, "C++ / AI DEVELOPMENT", "key")
+    text(28, 739, "Python / AI DEVELOPMENT", "key")
     text(28, 764, "[ open to work ]", "green")
     svg.append(f'<path d="M502 65 V764" stroke="{c["line"]}"/>')
     heading(38, "taras@shevchenko")
     field(76, "Name", profile["name"])
     field(100, "Focus", profile["focus"])
-    field(124, "Status", "Open to work · C++ / AI", "green")
+    field(124, "Status", "Open to work · Python / AI", "green")
     field(148, "Location", profile["location"])
     field(172, "Born in", profile["birthplace"])
     field(196, "Uptime", uptime(profile, now))
